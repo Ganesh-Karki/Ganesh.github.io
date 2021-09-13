@@ -35,7 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-imgrepo: "https://ganesh-karki.github.io/Ganesh.github.io/docs/static/img"
+imgrepo: "https://ganesh-karki.github.io/Ganesh.github.io/blog/static/img"
 
 permalink: /:categories/:title/
 highlighter: rouge
