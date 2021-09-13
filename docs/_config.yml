@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Deployment Test
+title: GK Test
 email: ganeskarki05@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Deployment test of GH pages with jekyll.
+  
 baseurl: '' # the subpath of your site, e.g. /blog
 url: https://ganesh-karki.github.io/Ganesh.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
