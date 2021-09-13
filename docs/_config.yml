@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: GK Test
+title: GK  Test
 email: ganeskarki05@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   
@@ -30,8 +30,34 @@ domain: ganesh-karki.github.io/Ganesh.github.io
 
 # Build settings
 theme: minima
+
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+imgrepo: "https://ganesh-karki.github.io/Ganesh.github.io/docs/static/img"
+
+permalink: /:categories/:title/
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input:  GFM
+  syntax_highlighter: rouge
+paginate: 10
+paginate_path: "page/:num"
+baseurl: ""
+defaults:
+  -
+    scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      styles : [highlight.css,gitment.css,post.css]
+      scripts : [gitment.js, post.js]
+
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
