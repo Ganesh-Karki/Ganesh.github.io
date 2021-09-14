@@ -23,7 +23,7 @@ email: ganeskarki05@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   
 baseurl: '' # the subpath of your site, e.g. /blog
-# url: https://ganesh-karki.github.io/Ganesh.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+url: https://ganesh-karki.github.io/Ganesh.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 domain: ganesh-karki.github.io/Ganesh.github.io
@@ -59,7 +59,7 @@ defaults:
       scripts : [gitment.js, post.js]
 
 
-url: "http://127.0.0.1:4000"
+# url: "http://127.0.0.1:4000"
 # imgrepo: "http://127.0.0.1:4000/static/img"
 
 
