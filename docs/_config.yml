@@ -45,7 +45,7 @@ kramdown:
   input:  GFM
   syntax_highlighter: rouge
   
-paginate: 5
+paginate: 10
 paginate_path: "/docs/page:num/"
 
 defaults:
